@@ -18,7 +18,7 @@ func maxRun(userInput: String) -> Int {
     var maxCount = 0
     var previous: Character = " "
 
-    // Counts how many consecutive occurences
+    // Counts how many consecutive occurrences
     // for every character in userInput
     for character in Array(userInput) {
         if character == previous {
