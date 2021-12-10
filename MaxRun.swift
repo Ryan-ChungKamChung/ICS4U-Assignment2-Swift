@@ -11,7 +11,7 @@
 
 import Foundation
 
-// This functions calculates the max run and returns it.
+// This function calculates the max run and returns it.
 func maxRun(userInput: String) -> Int {
 
     var count = 0
